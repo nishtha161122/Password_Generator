@@ -12,17 +12,6 @@ nr_numbers = int(input(f"How many numbers would you like?\n"))
 
 password = ""
 
-#easy level
-#for char in range (0, nr_letters):
-#   password += random.choice(letters)
-#for char in range (0, nr_symbols):
-#   password += random.choice(symbols)
-#for car in range (0, nr_numbers):
-#   password += random.choice(numbers)
-#print(password)
-
-#hard level
-
 password_list = []
 for char in range (0, nr_letters):
     password_list.append(random.choice(letters))
